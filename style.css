@@ -1,0 +1,66 @@
+/*
+Theme Name: Felipe
+Author: Felipe
+Version: 1.0
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face {
+    font-family: "open-sans";
+    src: url("assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+body{
+    background: #FFFFFF;
+    font-family: 'open-sans';
+}
+
+a{ 
+text-decoration:none; 
+} 
+
+.header{
+    height: 58px;
+    top: 53px;
+    left: 370px;
+    max-width: 1181px;
+    margin: auto;
+}
+
+.menu{
+    width: 379px;
+    height: 58px;
+    float: right;
+}
+.menu > ul{
+    list-style: none;
+}
+.menu > ul > li {
+    float: left;
+    font-size: 14px;
+    padding-right: 20px;
+    color: #202020;
+}
+
+.logo{
+    width:167px;
+    height: 58px;
+}
+#content{
+    height: 420px;
+    background: red;
+    margin-top: 124px;
+}
+#services{
+    height: 328px;
+    background: red;
+}
+#client{
+    height: 200px;
+    background: red;
+}
+footer{
+    height: 100px;
+    background:white;
+}
